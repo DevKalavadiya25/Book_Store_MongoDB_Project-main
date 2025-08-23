@@ -9,5 +9,4 @@ routes.post("/addNewBookData", adminController.addNewBookData)
 routes.get("/editBook/:id", adminController.editBook)
 routes.post("/editBookSubmit/:id", adminController.editBookSubmitted)
 routes.get("/deleteBook/:id", adminController.deleteBook)
-
 module.exports = routes
